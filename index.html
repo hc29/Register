@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function greet()
+		{
+			let uname = document.querySelector('#username').value;
+			alert ('hello, ' + uname);
+		}
+	</script>
+	<title>Register</title>
+</head>
+<body>
+	<form onsubmit='greet();'>
+		<input type="text" id="username">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>	
